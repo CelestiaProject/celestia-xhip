@@ -1,0 +1,6 @@
+*.pyc
+*.dat
+*.dat.gz
+ReadMe
+parser.out
+parsetab.py
