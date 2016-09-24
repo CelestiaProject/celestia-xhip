@@ -250,7 +250,7 @@ class IvoaSpectrum(object):
         TT_code = IvoaSpectrum._get_TT(specinfo.tclass)
         
         tt_code = 0
-        if specinfo.subclass and 0 <= specinfo.subclass <= 10:
+        if specinfo.subclass is not None and 0 <= specinfo.subclass <= 10:
             if (specinfo.subclass>=9.6 and
                     TT_code in (10, 11, 31, 32, 62, 63, 64, 66)):
                 tt_code = 20
