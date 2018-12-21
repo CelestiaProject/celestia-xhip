@@ -1,6 +1,9 @@
 Celestia-XHIP
 =============
 
+Future updates to these scripts will be made as part of the Celestia.Sci
+project, as such I am archiving this repository.
+
 About Celestia XHIP
 -------------------
 This project contains Python scripts to parse the XHIP catalogue for use with
